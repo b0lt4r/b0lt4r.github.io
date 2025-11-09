@@ -1,0 +1,6 @@
+title: BOLTER-DIGITAL
+description: Bitácora personal sobre ciberseguridad
+markdown: kramdown
+permalink: /:year/:month/:day/:title/
+collections: []
+# No theme so we use our own CSS

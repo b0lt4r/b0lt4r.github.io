@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>{{ page.title }} | {{ site.title }}</title>
+  <meta name="description" content="{{ site.description }}" />
+  <link rel="icon" href="/assets/img/favicon.ico" />
+  <link rel="stylesheet" href="/assets/css/main.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="/">
+        <img src="/assets/img/logo.png" alt="BOLTER-DIGITAL" class="logo" />
+        <span class="brand-title">BOLTER-DIGITAL</span>
+      </a>
+      <nav class="site-nav">
+        <a class="page-link" href="/">Inicio</a>
+        <a class="page-link" href="/about.html">Acerca de mí</a>
+        <a class="page-link" href="/contact.html">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="container">
+      {{ content }}
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© {{ site.time | date: "%Y" }} — BOLTER-DIGITAL</small>
+    </div>
+  </footer>
+</body>
+</html>
